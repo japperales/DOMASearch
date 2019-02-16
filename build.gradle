@@ -3,7 +3,7 @@ plugins {
     id 'idea'
 }
 
-group 'edu.bsu.cs445'
+group 'edu.bsu.cs445.domasearch.bsu.cs445'
 version '1.0-SNAPSHOT'
 
 idea {

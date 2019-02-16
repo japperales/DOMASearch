@@ -23,7 +23,7 @@ class ArtifactView extends VBox {
         try {
             loader.load();
 
-            Image image = new Image("http://cspvggp.dhcp.bsu.edu/OMI/" + record.getFileName());
+            Image image = new Image("http://cspvggp.dhcp.bsu.edu.bsu.cs445.domasearch/OMI/" + record.getFileName());
             imageView.setImage(image);
         } catch (IOException e) {
             throw new RuntimeException(e);

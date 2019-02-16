@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="edu.bsu.cs445.archdemo.main" target="1.8" />
       <module name="edu.bsu.cs445.archdemo.test" target="1.8" />
+      <module name="edu.bsu.cs445.edu.main" target="1.8" />
+      <module name="edu.bsu.cs445.edu.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
