@@ -5,6 +5,8 @@ import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
+import javafx.scene.control.TableView;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -16,8 +18,10 @@ import java.util.stream.Collectors;
 
 @XmlRootElement(name="metadata")
 @XmlAccessorType(XmlAccessType.FIELD)
+
 public
 class ArtifactRecordCollection {
+
 
     static ArtifactRecordCollection of(ArtifactRecord... records) {
         Preconditions.checkNotNull(records, "Parameter may not be null");

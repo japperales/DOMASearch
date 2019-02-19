@@ -26,7 +26,7 @@ public class Main extends Application {
 
 
         primaryStage.setTitle("Search DOMA");
-        primaryStage.setScene(new Scene(root, 810, 600));
+        primaryStage.setScene(new Scene(root, 1070, 600));
 
         primaryStage.show();
 

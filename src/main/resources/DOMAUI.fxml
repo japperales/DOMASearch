@@ -3,29 +3,22 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="WHYGOD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="944.0" styleClass="root" stylesheets="@../java/edu/bsu/cs445/domasearch/Style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsu.cs445.domasearch.Controller">
+<Pane fx:id="WHYGOD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="1062.0" styleClass="root" stylesheets="@../java/edu/bsu/cs445/domasearch/Style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsu.cs445.domasearch.Controller">
    <children>
-      <Label fx:id="HI" layoutX="182.0" layoutY="14.0" prefHeight="53.0" prefWidth="158.0" text="Hi There!" textFill="#b70c31">
-         <font>
-            <Font name="HelveticaNeueLTStd-Cn" size="36.0" />
-         </font>
-      </Label>
-      <TextField id="SearchBar" fx:id="SearchBar" layoutX="182.0" layoutY="57.0" onKeyPressed="#StartQueryOnEnter" prefHeight="51.0" prefWidth="356.0" promptText="Type query here">
-         <font>
-            <Font name="HelveticaNeueLTStd-Cn" size="24.0" />
-         </font>
-      </TextField>
-      <TableView fx:id="TableStuff" layoutX="19.0" layoutY="148.0" prefHeight="437.0" prefWidth="568.0" stylesheets="@../java/edu/bsu/cs445/domasearch/Style.css">
+      <Region layoutX="608.0" layoutY="8.0" prefHeight="454.0" prefWidth="454.0" styleClass="PicturePane" />
+      <TableView fx:id="TableStuff" layoutX="32.0" layoutY="144.0" prefHeight="437.0" prefWidth="568.0" stylesheets="@../java/edu/bsu/cs445/domasearch/Style.css">
         <columns>
           <TableColumn fx:id="ArtPieceColumn" prefWidth="116.0" text="Art-Piece" />
           <TableColumn prefWidth="133.0" text="Artist" />
@@ -36,7 +29,7 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <ImageView fitHeight="128.0" fitWidth="180.0" layoutX="-10.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="137.0" fitWidth="224.0" layoutX="-18.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@DOMA%20PIC.jpg" />
          </image></ImageView>
@@ -45,38 +38,53 @@
             <Font name="HelveticaNeueLTStd-Cn" size="36.0" />
          </font>
       </Label>
-      <CheckBox id="ArtistCheck" fx:id="ArtistCheck" layoutX="275.0" layoutY="123.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="81.0" text="Artist">
-         <font>
-            <Font name="Open Sans" size="15.0" />
-         </font></CheckBox>
-      <CheckBox id="TitleCheck" fx:id="TitleCheck" layoutX="356.0" layoutY="123.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="91.0" text="Art Titles">
-         <font>
-            <Font name="Open Sans" size="15.0" />
-         </font></CheckBox>
-      <CheckBox id="TitleCheck" fx:id="DescriptionCheck" layoutX="447.0" layoutY="123.0" mnemonicParsing="false" text="Description">
-         <font>
-            <Font name="Open Sans" size="15.0" />
-         </font></CheckBox>
 
-      <Label layoutX="19.0" layoutY="123.0" text="Search Through...">
+      <Label layoutX="21.0" layoutY="121.0" text="Search Through...">
          <font>
             <Font name="Open Sans" size="15.0" />
          </font></Label>
-      <ImageView fx:id="PicturePane" fitHeight="524.0" fitWidth="336.0" layoutX="599.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Bobert%20Ross.jpg" />
-         </image>
+      <ImageView fx:id="PicturePane" fitHeight="454.0" fitWidth="454.0" layoutX="608.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" styleClass="PicturePane">
          <viewport>
             <Rectangle2D />
          </viewport>
       </ImageView>
-      <Label layoutX="588.0" layoutY="464.0" opacity="0.91" prefHeight="119.0" prefWidth="336.0" text="We're not going to bury the lede here: Bob Ross' hair was actually straight. Just ask his longtime business partner, Annette Kowalski, who knew Ross better than anyone — he had just gotten out of the Air Force, and was unsuccessfully trying to make a living as a painter, she says.After Ross left the Air Force, he was struggling to make it as a full-time artist. Tight on cash, he got a perm, figuring he would no longer need to pay for frequent haircuts.Bob Ross Inc.&quot;He got this bright idea that he could save money on haircuts. So he let his hair grow, he got a perm, and decided he would never need a haircut again,&quot; Kowalski explains.Before he could change it back, though, the perm became his company's logo — Ross hated it. &quot;He could never, ever, ever change his hair, and he was so mad about that,&quot; Kowalski says. &quot;He got tired of that curly hair.&quot;But viewers never got tired of Ross or his show, The Joy of Painting. With his soft, hypnotic voice, he'd bring his viewers in close as he created 30-minute masterpieces — distant mountain ranges, seascapes, forest scenes, always with those happy little trees. He'd sling his palette around, blend the titanium white paint, whisper about his life in Alaska, then gently tap his fan brush to create a canvas full of fluffy clouds. With his partly unbuttoned chambray shirt, his halo of tight curls and his soothing demeanor, Ross was a fixture on PBS." wrapText="true" />
+      <Label fx:id="DescriptionText" layoutX="614.0" layoutY="464.0" opacity="0.91" prefHeight="119.0" prefWidth="446.0" text="We're not going to bury the lede here: Bob Ross' hair was actually straight. Just ask his longtime business partner, Annette Kowalski, who knew Ross better than anyone — he had just gotten out of the Air Force, and was unsuccessfully trying to make a living as a painter, she says.After Ross left the Air Force, he was struggling to make it as a full-time artist. Tight on cash, he got a perm, figuring he would no longer need to pay for frequent haircuts.Bob Ross Inc.&quot;He got this bright idea that he could save money on haircuts. So he let his hair grow, he got a perm, and decided he would never need a haircut again,&quot; Kowalski explains.Before he could change it back, though, the perm became his company's logo — Ross hated it. &quot;He could never, ever, ever change his hair, and he was so mad about that,&quot; Kowalski says. &quot;He got tired of that curly hair.&quot;But viewers never got tired of Ross or his show, The Joy of Painting. With his soft, hypnotic voice, he'd bring his viewers in close as he created 30-minute masterpieces — distant mountain ranges, seascapes, forest scenes, always with those happy little trees. He'd sling his palette around, blend the titanium white paint, whisper about his life in Alaska, then gently tap his fan brush to create a canvas full of fluffy clouds. With his partly unbuttoned chambray shirt, his halo of tight curls and his soothing demeanor, Ross was a fixture on PBS." wrapText="true">
+         <font>
+            <Font name="Open Sans" size="15.0" />
+         </font></Label>
       <Button fx:id="SearchButton" layoutX="544.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#StartQueryOnClick" prefHeight="51.0" prefWidth="50.0" stylesheets="@../java/edu/bsu/cs445/domasearch/Style.css" />
-      <CheckBox id="EverythingCheck" fx:id="EverythingCheck" layoutX="162.0" layoutY="123.0" mnemonicParsing="false" selected="true" text="Everything">
+      <TextField id="SearchBar" fx:id="SearchBar" layoutX="182.0" layoutY="57.0" onKeyPressed="#StartQueryOnEnter" prefHeight="51.0" prefWidth="356.0" promptText="Type query here">
+         <font>
+            <Font name="HelveticaNeueLTStd-Cn" size="24.0" />
+         </font>
+      </TextField>
+      <Label fx:id="HI" layoutX="182.0" layoutY="14.0" prefHeight="53.0" prefWidth="158.0" text="Hi There!" textFill="#b70c31">
+         <font>
+            <Font name="HelveticaNeueLTStd-Cn" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="156.0" layoutY="121.0" mnemonicParsing="false" selected="true" text="Everything">
+         <toggleGroup>
+            <ToggleGroup fx:id="SearchBy" />
+         </toggleGroup>
          <font>
             <Font name="Open Sans" size="15.0" />
          </font>
-      </CheckBox>
+      </RadioButton>
+      <RadioButton layoutX="266.0" layoutY="121.0" mnemonicParsing="false" text="Artist" toggleGroup="$SearchBy">
+         <font>
+            <Font name="Open Sans" size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="340.0" layoutY="121.0" mnemonicParsing="false" text="Title" toggleGroup="$SearchBy">
+         <font>
+            <Font name="Open Sans" size="15.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="404.0" layoutY="121.0" mnemonicParsing="false" text="Description" toggleGroup="$SearchBy">
+         <font>
+            <Font name="Open Sans" size="15.0" />
+         </font>
+      </RadioButton>
 
    </children>
    <opaqueInsets>

@@ -3,7 +3,7 @@
 }
 .scene{
 
-    -fx-background-image: url("../../../DOMASearch/src/main/resources/Centennial Logo - Color.png");
+    -fx-background-image: url("../DOMASearch/src/main/resources/Centennial Logo - Color.png");
 
 }
 .root {
@@ -32,6 +32,10 @@
     -fx-background-insets: 0 0 -1 0, 0, 1, 2;
     -fx-background-radius: 3px, 3px, 2px, 1px;
     -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+
+}
+.PicturePane{
+    -fx-background-color: F2F2F2;
 
 }
 #TableStuff{
