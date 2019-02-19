@@ -6,6 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.net.URL;
+
 
 public class Main extends Application {
 
@@ -14,8 +17,10 @@ public class Main extends Application {
 
 
 
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("../resources/DOMAUI.fxml"));
-
+        //Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("resources/DOMAUI.fxml"));
+        URL url = new File("../DOMASearch/src/main/resources/DOMAUI.fxml").toURI().toURL();
+        System.out.println(url);
+        Parent root = FXMLLoader.load(url);
 
 
 

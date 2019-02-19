@@ -36,11 +36,11 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <ImageView fitHeight="104.0" fitWidth="194.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="128.0" fitWidth="180.0" layoutX="-10.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="../resources/DOMA PIC.jpg" />
+            <Image url="@DOMA%20PIC.jpg" />
          </image></ImageView>
-      <Label fx:id="BIGTITLE1" layoutX="308.0" layoutY="18.0" text="Search DOMA">
+      <Label fx:id="BIGTITLE1" layoutX="331.0" layoutY="14.0" text="Search DOMA">
          <font>
             <Font name="HelveticaNeueLTStd-Cn" size="36.0" />
          </font>
@@ -64,7 +64,7 @@
          </font></Label>
       <ImageView fx:id="PicturePane" fitHeight="524.0" fitWidth="336.0" layoutX="599.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/Bobert Ross.jpg" />
+            <Image url="@Bobert%20Ross.jpg" />
          </image>
          <viewport>
             <Rectangle2D />
