@@ -1,0 +1,21 @@
+@font-face {
+    font-family: HelveticaNeueLTStd-Cn;
+    src: url(/Images/HelveticaNeueLTStd-Cn.otf);
+}
+.pane{
+   -fx-background-color: #FFFFFF;
+
+}
+.scene{
+    -fx-background-color: #FFFFFF;
+}
+.root {
+    -fx-background-image: url("/Images/Centennial Logo - Color.png");
+}
+#HI{
+    -fx-font-family: HelveticaNeueLTStd-Cn;
+
+}
+#WHYGOD{
+    -fx-background-color: #FFFFFF;
+}

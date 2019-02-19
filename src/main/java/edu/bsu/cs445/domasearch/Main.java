@@ -1,48 +1,31 @@
 package edu.bsu.cs445.domasearch;
 
-import com.google.common.base.Preconditions;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.concurrent.CompletableFuture;
 
 public class Main extends Application {
 
-    private ArtifactRecordCollection collection;
-
     @Override
-    public void start(Stage primaryStage) {
-        createInitialScene(primaryStage);
-        JaxbParser parser = JaxbParser.create();
-        InputStream owsleyStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("resources/owsley.xml");
-        CompletableFuture.runAsync(() -> collection = parser.parse(owsleyStream))
-                .thenRun(() -> Platform.runLater(() -> {
-                            SearchPane searchPane = new SearchPane(collection);
-                            Scene searchPaneScene = new Scene(searchPane);
-                            primaryStage.setScene(searchPaneScene);
-                        }
-                ));
+    public void start(Stage primaryStage) throws Exception{
+
+        Font.loadFont(getClass().getResourceAsStream("/Images/HelveticaNeueLTStd-Cn.otf"), 14);
+        Parent root = FXMLLoader.load(getClass().getResource("../../../DOMASearch/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml"));
+        primaryStage.setTitle("Search DOMA");
+        primaryStage.setScene(new Scene(root, 810, 600));
+
+        primaryStage.show();
+
+
     }
 
-    private void createInitialScene(Stage stage) {
-        Parent root;
-        try {
-            URL url = getClass().getResource("loading.fxml");
-            Preconditions.checkNotNull(url, "Cannot load fxml resource");
-            root = FXMLLoader.load(url);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        Scene scene = new Scene(root);
-        stage.setTitle("Naive DOMA Search");
-        stage.setScene(scene);
-        stage.show();
+
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }

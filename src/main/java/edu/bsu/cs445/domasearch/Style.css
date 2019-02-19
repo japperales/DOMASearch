@@ -1,0 +1,44 @@
+.pane{
+   -fx-background-color: #FFFFFF;
+}
+.scene{
+
+    -fx-background-image: url("../../../DOMASearch/src/main/resources/Centennial Logo - Color.png");
+
+}
+.root {
+    -fx-background-color: #FFFFFF;
+}
+#WHYGOD{
+
+    -fx-background-color: #FFFFFF;
+}
+@font-face {
+    font-family: HelveticaNeueLTStd-Cn;
+    src: url(/Images/HelveticaNeueLTStd-Cn.otf);
+}
+.button {
+    -fx-background-color: #BA0C2F;
+    -fx-background-image: url("https://www.iconsdb.com/icons/preview/white/search-13-xxl.png");
+    -fx-background-size: 45px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center, center;
+
+}
+
+.button:hover {
+    /*background-color: #FFFFFF;*/
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+
+}
+#TableStuff{
+    -fx-background-image: url("https://www.bsu.edu/-/media/www/departmentalcontent/centennial/centennial_logo-450.png?h=150&w=102&hash=7E21EC0F8360D5A6910431B503DF0465793BA614&la=en");
+    -fx-background-color: #F2F2F2;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 200.0 325.0;
+    -fx-background-position:  center, center ;
+
+}
