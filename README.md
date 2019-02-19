@@ -1,8 +1,12 @@
-# Na&iuml;ve Search: A Software Architecture Demo for CS445 Spring 2019
+# Doma Search short project spring 2018 (John Perales Aron Patterson)
 
-This repository contains code for a running example in 
-[the Spring 2019 section of CS445 Human-Computer Interaction](http://www.cs.bsu.edu/~pvgestwicki/courses/cs445Sp19/)
-at [Ball State University](https://www.bsu.edu).
+This is the readme file for the DOMA Search, a search application for  the David Owsley Muesum of Art's inventory of artifacts
+
+All Bsu and DOMA logos and fonts are property of Ball State University.
+
+Bob Ross picture source: https://www.sessions.edu/notes-on-design/now-you-can-watch-bob-ross-joy-of-painting-online-for-free/
+
+Base Project is from Dr. Gestwicki.
 
 This project uses [Gradle](https://gradle.org/). If you clone it into [IntelliJ IDEA](https://www.jetbrains.com/idea/), 
 you will be able to import it as a gradle project. To run the unit tests, right-click on the `tests` folder and you will be 
