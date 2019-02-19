@@ -38,7 +38,7 @@
       </TableView>
       <ImageView fitHeight="104.0" fitWidth="194.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/DOMA%20PIC.jpg" />
+            <Image url="@../../../../../resources/DOMA%20PIC.jpg" />
          </image></ImageView>
       <Label fx:id="BIGTITLE1" layoutX="308.0" layoutY="18.0" text="Search DOMA">
          <font>
@@ -67,7 +67,7 @@
          </font></Label>
       <ImageView fx:id="PicturePane" fitHeight="524.0" fitWidth="336.0" layoutX="599.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/Bobert%20Ross.jpg" />
+            <Image url="@../../../../../resources/Bobert%20Ross.jpg" />
          </image>
          <viewport>
             <Rectangle2D />

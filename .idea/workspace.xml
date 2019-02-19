@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e81c4f33-8d51-4ae6-b5a2-28c08151c659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/GOOD.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Bobert Ross.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Centennial Logo - Color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Centennial Logo - White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DOMA PIC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/HelveticaNeueLTStd-Cn.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SettingsGear.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/ArtifactRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/ArtifactRecordCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/ArtifactView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/JaxbParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/SearchPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/ArtifactRecordCollectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/edu.bsu.cs445.domasearch.bsu.cs445.edu.bsu.cs445.domasearch/edu/bsu/cs445/domasearch/JaxbParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/GOOD.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/module-info.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,6 +24,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/SearchPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -50,8 +49,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/ArtifactView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOMASearch1.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -79,12 +106,13 @@
         <option value="$PROJECT_DIR$/DOMASearch/src/main/java/edu/bsu/cs445/domasearch/JaxbParser.java" />
         <option value="$PROJECT_DIR$/DOMASearch/src/main/java/edu/bsu/cs445/domasearch/Main.java" />
         <option value="$PROJECT_DIR$/DOMASearch/src/main/java/edu/bsu/cs445/domasearch/SearchPane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="577" />
-    <option name="width" value="1350" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="603" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -340,24 +368,26 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550535261986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550536285438" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\src" />
-      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch\src\main" />
-      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch\src\main\test\resources\edu.bsu.cs445.domasearch" />
+      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.bsu.cs445.domasearch" />
       <recent name="java.edu.bsu.cs445.domasearch" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch\src\main\test\resources\edu.bsu.cs445.domasearch" />
-      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ Projects\DOMASearch\src\main\java\edu\bsu\cs445\domasearch" />
+      <recent name="D:\IntelliJ Projects\DOMASearch\src\main\resources" />
+      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\src" />
+      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch\src\main" />
+      <recent name="C:\Users\aronp\Documents\GitHub\DOMASearch\DOMASearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,8 +435,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550295335732</updated>
-      <workItem from="1550535352451" duration="385000" />
+      <workItem from="1550535352451" duration="1033000" />
     </task>
+    <task id="LOCAL-00001" summary="Committing UI Junk">
+      <created>1550535784601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550535784601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,13 +457,18 @@
     <history-entry file="ArtifactRecordCollectionTest_testCountRecordsByTitleQuery_emptyString_zero - 2019.02.18 at 19h 16m 59s.xml">
       <configuration name="ArtifactRecordCollectionTest.testCountRecordsByTitleQuery_emptyString_zero" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArtifactRecordCollectionTest_testCountRecordsByTitleQuery_emptyString_zero - 2019.02.18 at 19h 29m 31s.xml">
+      <configuration name="ArtifactRecordCollectionTest.testCountRecordsByTitleQuery_emptyString_zero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArtifactRecordCollectionTest_testCountRecordsByTitleQuery_emptyString_zero - 2019.02.18 at 19h 29m 40s.xml">
+      <configuration name="ArtifactRecordCollectionTest.testCountRecordsByTitleQuery_emptyString_zero" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385000" />
+    <option name="totallyTimeSpent" value="1033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="0" width="1080" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -433,12 +476,12 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.5107843" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.34966442" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3323782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,6 +539,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Committing UI Junk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing UI Junk" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/DOMASearch/src/main/java/edu/bsu/cs445/domasearch/museumPiece.java" />
@@ -533,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/ArtifactView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/ArtifactRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -554,17 +594,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/SearchPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/owsley.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="704" column="13" selection-start-line="704" selection-start-column="5" selection-end-line="704" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOMASearch1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/GOOD.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/ArtifactView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -575,8 +632,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOMASearch1.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/SearchPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/module-info.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/bsu/cs445/domasearch/DOMAUI.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
 </project>
